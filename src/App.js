@@ -24,14 +24,14 @@ function App() {
   const themeStorage = window.localStorage.getItem("theme");
 
   useEffect(() => {
-    if (themeStorage === "light" || localStorage === null) {
+    if (themeStorage === "light" || themeStorage === null) {
       setTheme(true);
       setThemeName("Dark Mode");
     } else {
       setTheme(false);
       setThemeName("Light Mode");
     }
-  }, [themeStorage]);
+  }, []);
 
   return (
     <div className={theme ? null : "dark"}>
