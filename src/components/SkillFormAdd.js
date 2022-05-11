@@ -25,12 +25,11 @@ const SkillFormAdd = (props) => {
   };
 
   const handleClickSubmit = (e) => {
-    console.log("state", state);
+    e.preventDefault();
     if (state.year === "" || state.skill === "") {
       alert("You have not filled in all the fields");
       return false;
     } else {
-      e.preventDefault();
       (async () => {
         await axios.post("http://localhost:3001/skills", {
           ...state,
