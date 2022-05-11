@@ -67,7 +67,7 @@ const SkillFormEdit = (props) => {
           placeholder="enter skill"
         />
         <input
-          type="text"
+          type="number"
           name="year"
           placeholder="enter year"
           value={state.year}
