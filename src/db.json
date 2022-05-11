@@ -1,0 +1,40 @@
+{
+  "candidate": {
+    "id": 1,
+    "firstName": "Branislav",
+    "lastName": "Stojcic",
+    "email": "bane96@gmail.com"
+  },
+  "skills": [
+    {
+      "skill": "js",
+      "year": 2021,
+      "id": 1
+    },
+    {
+      "skill": "php",
+      "year": 2021,
+      "id": 2
+    },
+    {
+      "skill": "java",
+      "year": 2020,
+      "id": 3
+    },
+    {
+      "skill": "javascript",
+      "year": 2022,
+      "id": 4
+    },
+    {
+      "skill": "Vue",
+      "year": 2022,
+      "id": 5
+    },
+    {
+      "skill": "React",
+      "year": 2022,
+      "id": 6
+    }
+  ]
+}
